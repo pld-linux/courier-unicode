@@ -5,12 +5,12 @@
 Summary:	Courier Unicode library
 Summary(pl.UTF-8):	Biblioteka Courier Unicode
 Name:		courier-unicode
-Version:	2.0
+Version:	2.1
 Release:	1
 License:	GPL v3
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/courier/%{name}-%{version}.tar.bz2
-# Source0-md5:	1bad3b3b890da01ff830b15d129f0cfa
+# Source0-md5:	e2b4e8f16c51b2bc03ab16a5ff49832b
 URL:		http://www.courier-mta.org/authlib/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
