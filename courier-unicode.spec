@@ -11,7 +11,7 @@ License:	GPL v3
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/courier/%{name}-%{version}.tar.bz2
 # Source0-md5:	e2b4e8f16c51b2bc03ab16a5ff49832b
-URL:		http://www.courier-mta.org/authlib/
+URL:		http://www.courier-mta.org/unicode/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel >= 6:4.7
@@ -22,17 +22,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The Courier Unicode library implements several algorithms related to
 the Unicode Standard:
-- Look up uppercase, lowercase, and titlecase equivalents of a
-  unicode character.
-- Implementation of grapheme and word breaking rules.
-- Implementation of line breaking rules.
-- Several ancillary functions, like looking up the unicode character
+- Look up uppercase, lowercase, and titlecase equivalents of a unicode
+  character.
+- Implementation of grapheme and word breaking rules.
+- Implementation of line breaking rules.
+- Several ancillary functions, like looking up the unicode character
   that corresponds to some HTML 4.0 entity (such as "&amp;", for
-  example), and determining the normal width or a double-width status
-  of a unicode character. Also, an adaptation of the iconv(3) API for
-  this unicode library.
+  example), and determining the normal width or a double-width status of
+  a unicode character. Also, an adaptation of the iconv(3) API for this
+  unicode library.
 - Look up the Unicode script property.
-- Look up the category property.
+- Look up the category property.
 
 This library also implements C++ bindings for these algorithms.
 
