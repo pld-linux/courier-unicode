@@ -15,7 +15,7 @@ URL:		http://www.courier-mta.org/unicode/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel >= 6:4.7
-BuildRequires:	libtool >= 2:1.5
+BuildRequires:	libtool >= 2:2
 BuildRequires:	perl-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
